@@ -5,7 +5,7 @@ import { REMOTE_PORT } from '../../config'
 
 export default defineConfig({
   html: {
-    template: 'public/index.html',
+    title: 'REMOTE'
   },
   server: {
     port: REMOTE_PORT,

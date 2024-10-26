@@ -9,7 +9,7 @@ const App = () => {
       <h1>Container</h1>
       <div style={{ border: '5px solid red' }}>
         <Suspense fallback={<div>Loading...</div>}>
-          <Remote num={1234} />
+          <Remote num={1234} str="ciao" />
         </Suspense>
       </div>
     </div>

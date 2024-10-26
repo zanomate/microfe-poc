@@ -1,11 +1,11 @@
 import { pluginModuleFederation } from '@module-federation/rsbuild-plugin'
 import { defineConfig } from '@rsbuild/core'
 import { pluginReact } from '@rsbuild/plugin-react'
-import { CONTAINER_PORT, REMOTE_DOMAIN, REMOTE_PORT } from '../../config'
+import { CONTAINER_PORT, REMOTE_DOMAIN } from '../../config'
 
 export default defineConfig({
   html: {
-    template: 'public/index.html',
+    title: 'CONTAINER'
   },
   server: {
     port: CONTAINER_PORT,

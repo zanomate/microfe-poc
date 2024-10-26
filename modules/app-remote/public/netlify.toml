@@ -1,0 +1,6 @@
+[[headers]]
+    for = "/mf-manifest.json"
+    [headers.values]
+        Access-Control-Allow-Origin = "https://microfe-poc-container.netlify.app"
+        Access-Control-Allow-Methods = "GET, OPTIONS"
+        Access-Control-Allow-Headers = "Content-Type"
