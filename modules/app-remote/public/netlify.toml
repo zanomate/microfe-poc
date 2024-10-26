@@ -1,5 +1,5 @@
 [[headers]]
-    for = "/mf-manifest.json"
+    for = "/*"
     [headers.values]
         Access-Control-Allow-Origin = "https://microfe-poc-container.netlify.app"
         Access-Control-Allow-Methods = "GET, OPTIONS"
