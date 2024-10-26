@@ -1,9 +1,12 @@
 import { pluginModuleFederation } from '@module-federation/rsbuild-plugin'
 import { defineConfig } from '@rsbuild/core'
 import { pluginReact } from '@rsbuild/plugin-react'
-import { REMOTE_PORT } from '../../config'
+import { REMOTE_DOMAIN, REMOTE_PORT } from '../../config'
 
 export default defineConfig({
+  output: {
+    assetPrefix: REMOTE_DOMAIN,
+  },
   html: {
     title: 'REMOTE'
   },
